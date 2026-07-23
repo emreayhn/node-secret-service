@@ -5,7 +5,7 @@ const PORT = 3000;
 
 // "/" route → Hello world
 app.get('/', (req, res) => {
-  res.send('Hello, world!');
+ 
   res.send('Watchtower otomatik guncelleme calisiyor!');
 });
 
